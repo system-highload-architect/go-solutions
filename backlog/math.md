@@ -12,3 +12,4 @@
 | optimization | Gradient descent, simplex, genetic | planned |
 | random | PRNG, Perlin noise, sampling | planned |
 | ml | Neural networks, optimizers, losses | planned |
+| big | High‑precision arithmetic for scientific computations (big.Int, big.Float, astro, nbody, constants) | planned |
