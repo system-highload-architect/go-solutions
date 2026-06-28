@@ -283,3 +283,10 @@ func (c *Cache[K, V]) finalizeWorker() {
 		}
 	}
 }
+
+// Len returns the current number of items in the cache.
+func (c *Cache[K, V]) Len() int {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return len(c.items)
+}
