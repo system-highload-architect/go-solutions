@@ -15,6 +15,9 @@
 
 ## Модули
 
+### algo
+- **`algo/cachealign`** – выровненные по кэш-линии батчи для быстрой табличной диспетчеризации
+
 ### math
 - **`math/fixedpoint`** – точная денежная арифметика (копейки/центы)
 - **`math/statistics`** – среднее, дисперсия, корреляция, перцентили
@@ -82,4 +85,5 @@
 | timed cache, кэш с TTL | `data/timedcache` |
 | user-agent, парсинг | `security/device` |
 | деньги, копейки | `math/fixedpoint` |
+| cache-align, FSM, dispatch | `algo/cachealign` |
 | ... | ... |
